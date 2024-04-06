@@ -1,7 +1,7 @@
  export class Github { //js de Class yapilarini kullanacagimiz yerde cagirabilmek icin export ediyoruz ve new keywordu ile cagiriyoruz.
     constructor(){
-        this.client_id = "9075e738bade8b1fde36"; //buna gore istek aticaz
-        this.client_secret = "e7db4eea67d7a40d4f4f2124e2d56af725eac623"; //github ile iletisim kurmamizi saglayacak key.
+        this.client_id = ""; //buna gore istek aticaz
+        this.client_secret = ""; //github ile iletisim kurmamizi saglayacak key.
         this.per_page = 10 
         this.sort = "asc"
     }
